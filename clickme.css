@@ -1,0 +1,35 @@
+body{
+      display: flex;
+      justify-content:center;
+      height: 100px;
+      width: 500px;
+}
+body :hover{
+    color: rgb(219, 11, 46);
+    box-shadow: 0 0 5px rgb(45, 202, 202),
+0 0 25px rgb(40, 214, 214), 0 0 50px rgb(40, 254, 254),
+0 0 100px rgb(46, 239, 239), 0 0 200px rgb(45, 237, 237);
+}
+
+button{
+width: 250px;
+height: 110px;
+border:  10px double black ;
+padding: 15px 32px;
+border-radius: 12px;
+box-shadow: 0 0 5px rgb(33, 204, 204),
+0 0 25px rgb(46, 220, 220);
+text-align: center;
+display: inline-block;
+position: absolute;
+transform: translateY(-50%);
+top:50%;
+left:40%;
+background-position: center;
+font-size: 25px;
+font-weight: bold;
+font-style: italic;
+font-family: sans-serif;
+
+
+}
